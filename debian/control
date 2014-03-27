@@ -1,0 +1,33 @@
+Source: maleo
+Section: gnome
+Priority: extra
+Maintainer: BlankOn Developers <blankon-developers@lists.alioth.debian.org>
+Uploaders:
+ Mahyuddin Susanto <udienz@gmail.com>
+Build-Depends:
+ automake1.9,
+ autotools-dev,
+ cdbs,
+ debhelper (>= 8.0.0),
+ gnome-common (>= 3.10.0),
+ libglib2.0-dev,
+ libgtk-3-dev,
+ libjavascriptcoregtk-3.0-dev,
+ libseed-gtk3-dev,
+ libtool,
+ libvala-0.20-dev,
+ libwebkitgtk-3.0-dev,
+ libxml2-dev (>=2.9.0),
+ valac-0.20
+Standards-Version: 3.9.2
+Homepage: https://github.com/BlankOn/maleo
+Vcs-Git: git://git.debian.org/blankon/maleo.git
+Vcs-Browser: http://git.debian.org/?p=blankon/maleo.git;a=summary
+
+Package: maleo
+Architecture: any
+Depends:
+ ${misc:Depends},
+ ${shlibs:Depends}
+Description: Maleo HTML5 application runner
+ This package provides HTML5 application runner.
