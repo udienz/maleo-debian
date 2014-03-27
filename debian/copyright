@@ -1,10 +1,9 @@
 Format: http://dep.debian.net/deps/dep5
 Upstream-Name: maleo
-Source: <url://example.com>
+Source: https://github.com/BlankOn/maleo
 
 Files: *
-Copyright: <years> <put author's name and email here>
-           <years> <likewise for another author>
+Copyright: 2013-2014 Mohammad Dhani Anwari <mdamt@mdamt.net>
 License: GPL-2.0+
 
 Files: debian/*
